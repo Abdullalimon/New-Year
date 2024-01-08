@@ -1,0 +1,61 @@
+.head {
+    background-image: url('../resources/Banner\ Image.png');
+    border-radius: 16px;
+    width: 1200px;
+    height: 600px;
+    margin: 50px 140px;
+}
+.banner{
+   padding: 215px 300px 200px 400px;
+   align-items: center;
+   display: flex;
+
+}
+.banner-content{
+    max-width: 400px;
+}
+
+.banner-gretting {
+    text-align: center;
+    color: #fff;
+   
+
+}
+
+.banner-title {
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    
+}
+body{
+    font-family: Inter , Merriweather;
+}
+
+.section-title {
+    text-align: center;
+    color: #F00;
+    font-weight: 700;
+    margin-top: 120px;
+
+}
+#lk{
+    margin-top: 30px;
+}
+.title{
+    text-align: center;
+    color: #070707;
+}
+.section-img{
+    
+    background-color: lightgray;
+   
+
+}
+.Welcome{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 900;
+    
+}
