@@ -5,20 +5,22 @@
     height: 600px;
     margin: 50px 140px;
 }
-.banner{
-   padding: 215px 300px 200px 400px;
-   align-items: center;
-   display: flex;
+
+.banner {
+    padding: 215px 300px 200px 400px;
+    align-items: center;
+    display: flex;
 
 }
-.banner-content{
+
+.banner-content {
     max-width: 400px;
 }
 
 .banner-gretting {
     text-align: center;
     color: #fff;
-   
+
 
 }
 
@@ -27,10 +29,21 @@
     text-align: center;
     font-weight: 900;
     font-size: 50px;
-    
+
 }
-body{
-    font-family: Inter , Merriweather;
+
+body {
+    font-family: Inter, Merriweather;
+
+
+
+}
+
+.about {
+    background-image: url('../resources/New\ Year\ Photo.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+
 }
 
 .section-title {
@@ -40,22 +53,143 @@ body{
     margin-top: 120px;
 
 }
-#lk{
+
+#lk {
     margin-top: 30px;
 }
-.title{
+
+.title {
     text-align: center;
     color: #070707;
+    margin-bottom: 100px;
 }
-.section-img{
-    
-    background-color: lightgray;
-   
+
+
+.image {
+    display: flex;
+    padding: 220px;
+
+
 
 }
-.Welcome{
-    text-align: center;
+
+.Welcome {
+    color: #fff;
     font-size: 64px;
     font-weight: 900;
+    max-width: 530px;
+    max-height: 140px;
+    padding: 142px 526px 0px 142px;
+
+}
+
+.next {
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 1320px;
+    height: 600px;
+    padding: 120px 160px 0 120px;
+}
+
+.text {
+    color: #fff;
+    padding: 0 450px 0 126px;
+    width: 520px;
+    height: 55px;
+}
+
+.btn {
+    color: aqua;
+    margin-top: 30px;
+    margin-left: 159px;
+}
+
+.picture {
+    background-image: url('../resources/Group\ 70.png');
+}
+
+.new {
+    text-align: center;
+    width: 1300px;
+    height: 475px;
+    background-color: beige;
+    margin: 120px 140px 120px 140px;
+}
+
+.line {
+    padding: 100px 380px 20px 375px;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.span {
+    color: #F00;
+}
+
+.btn-j {
+    border-radius: 8px;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    margin-bottom: 100px;
+    background-color: red;
+}
+
+.item-title {
+    color: red;
+    margin-right: 50px;
+
+}
+
+.title {
+    display: flex;
+    width: 1450px;
+    height: 500px;
+    background-color: #fff;
+    justify-content: space-between;
+    background-image: url('../resources/Eplis.png') ;
+    background-repeat: no-repeat;
+    background-position: top center;
     
+
+
+}
+
+
+.item-info {
+
+    margin-right: 45px;
+
+
+}
+
+.item-desc {
+    max-width: 310px;
+    max-height: 90px;
+    margin-left: 140px;
+    margin-right: 50px;
+}
+
+
+.item-two {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 36px;
+    margin-right: 280px;
+
+
+}
+
+.item-description {
+    max-width: 230px;
+    max-height: 62px;
+    margin-right: 200px;
+}
+
+.pic {
+    margin-top: 0px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+
 }
