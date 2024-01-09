@@ -187,9 +187,9 @@ body {
     width: 1400px;
     height: 900px;
     background-color: #fff;
-    background-image: url('../resources/Rectangle\ 1.png'), url('../resources/Group\ 75.png'), url('../resources/Rectangle\ 2.png');
+    background-image: url('../resources/Rectangle\ 1.png'), url('../resources/Group\ 75.png'), url('../resources/Rectangle\ 2.png') ;
     background-repeat: no-repeat;
-    background-position: center right, bottom left, bottom;
+    background-position: center right, bottom left, bottom ;
 
 }
 
@@ -238,10 +238,91 @@ body {
     font-weight: 400;
     width: 750px;
     margin-left: 50px;
-  
+
 }
 
 .last {
+    background-color: #FFF;
     width: 1450px;
     height: 700px;
+}
+
+.party {
+    width: 1420px;
+    height: 516px;
+    background-image: url('../resources/Group\ 61.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: antiquewhite;
+    padding: 0 120px 20px 100px;
+
+}
+
+.party-on {
+    margin-top: 200px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+    margin-left: 100px;
+}
+
+.party-off {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    width: 750px;
+    margin-left: 200px;
+    padding: 0px 212px 0px 212px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+.tube {
+    color: #fff;
+    background-color: #F00;
+}
+
+footer {
+    width: 1600px;
+    height: 609px;
+    background-color: #070707;
+    padding: 120px;
+    margin-top: 110px;
+    display: flex;
+
+}
+.social-links{
+    display: block;
+}
+
+.footer1 {
+    display: flex;
+    gap: 100px;
+}
+
+.bag1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 18px;
+
+}
+
+.bag {
+    color: #fff;
+    margin-left: 450px;
+
+}
+.bag2{
+    color: #fff;
+    margin-top: 300px;
+}
+.bag3{
+    color: #fff;
+    margin-left: 480px;
+    margin-top: 330px;
 }
