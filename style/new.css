@@ -137,7 +137,7 @@ body {
 
 .item-title {
     color: red;
-    margin-right: 50px;
+    margin-left: 140px;
 
 }
 
@@ -145,20 +145,16 @@ body {
     display: flex;
     width: 1450px;
     height: 500px;
-    background-color: #fff;
+    /* background-color: #fff; */
     justify-content: space-between;
-    background-image: url('../resources/Eplis.png') ;
+    background-image: url('../resources/Eplis.png');
     background-repeat: no-repeat;
     background-position: top center;
-    
-
-
 }
-
 
 .item-info {
 
-    margin-right: 45px;
+    margin-left: 140px;
 
 
 }
@@ -187,9 +183,65 @@ body {
     margin-right: 200px;
 }
 
-.pic {
-    margin-top: 0px;
-    border-radius: 463px;
-    border: 15px solid #F00;
+.fundamental {
+    width: 1400px;
+    height: 900px;
+    background-color: #fff;
+    background-image: url('../resources/Rectangle\ 1.png'), url('../resources/Group\ 75.png'), url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: center right, bottom left, bottom;
 
+}
+
+.functional {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.functional-fun {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.color {
+    color: red;
+}
+
+.functional-done {
+
+    color: rgba(50, 50, 51, 0.6);
+    font-weight: 500;
+    width: 800px;
+    height: 96px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.linetext {
+    color: red;
+    margin-left: 50px;
+}
+
+.portfolio {
+    margin-left: 50px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.dolor {
+    color: rgba(33, 33, 33, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    width: 750px;
+    margin-left: 50px;
+  
+}
+
+.last {
+    width: 1450px;
+    height: 700px;
 }
