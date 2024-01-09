@@ -91,6 +91,16 @@ body {
     height: 600px;
     padding: 120px 160px 0 120px;
 }
+.top{
+    display: flex;
+    justify-content: right ;
+    margin-bottom: 600px;
+    
+}
+.Welcome-column{
+    margin-bottom: 400px;
+    display: flex;
+}
 
 .text {
     color: #fff;
@@ -98,6 +108,7 @@ body {
     width: 520px;
     height: 55px;
 }
+
 
 .btn {
     color: aqua;
@@ -185,12 +196,31 @@ body {
 
 .fundamental {
     width: 1400px;
-    height: 900px;
+    height: 990px;
     background-color: #fff;
-    background-image: url('../resources/Rectangle\ 1.png'), url('../resources/Group\ 75.png'), url('../resources/Rectangle\ 2.png') ;
+    background-image: url('../resources/Rectangle\ 2.png');
     background-repeat: no-repeat;
-    background-position: center right, bottom left, bottom ;
+    background-position: bottom;
 
+}
+
+.got{
+    
+    display:flex;
+}
+.get{
+    margin-bottom: 200px;
+    margin-left: 620px;
+    margin-top: 25px;
+   
+}
+.yes{
+    margin-bottom: 200px;
+    margin-bottom: 200px;
+    
+}
+.holidays{
+    margin-bottom: 700px;
 }
 .Rectangle1{
     margin-top: 10px;
@@ -250,9 +280,20 @@ body {
 .last {
     background-color: #FFF;
     width: 1450px;
-    height: 1700px;
+    height: 1200px;
 }
+.sit{
+    display: flex;
+    gap: 10px 10px;
+    margin-left: 35px;
+    padding-bottom: 10px;
+}
+.best{
+    display: flex;
+    gap: 10px 10px;
+    margin-left: 35px;
 
+}
 .party {
     width: 1420px;
     height: 516px;
@@ -299,12 +340,25 @@ footer {
     margin-top: 110px;
     padding: 120px;
     display: flex;
-
+     border: 1px solid rgba(50, 50, 51, 0.6);
+    
 }
-.social-links{
-    display: block;
+.links{
+   padding-top: 250px;
 }
-
+.it{
+  margin-right: 18px;
+}
+.ui{
+   margin-right: 18px;
+}
+.qw{
+  margin-right:18px ;
+}
+.call{
+    width: 24px;
+    height: 24px;
+}
 .footer1 {
     display: flex;
     gap: 100px;
@@ -320,7 +374,7 @@ footer {
 
 .bag {
     color: #fff;
-    margin-left: 450px;
+    margin-left: 300px;
 
 }
 .bag2{
@@ -329,6 +383,6 @@ footer {
 }
 .bag3{
     color: #fff;
-    margin-left: 480px;
+    margin-left: 300px;
     margin-top: 330px;
 }
