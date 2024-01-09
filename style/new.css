@@ -192,6 +192,12 @@ body {
     background-position: center right, bottom left, bottom ;
 
 }
+.Rectangle1{
+    margin-top: 10px;
+}
+.Rectangle{
+    margin-top: 0;
+}
 
 .functional {
     text-align: center;
@@ -244,7 +250,7 @@ body {
 .last {
     background-color: #FFF;
     width: 1450px;
-    height: 700px;
+    height: 1700px;
 }
 
 .party {
@@ -290,8 +296,8 @@ footer {
     width: 1600px;
     height: 609px;
     background-color: #070707;
-    padding: 120px;
     margin-top: 110px;
+    padding: 120px;
     display: flex;
 
 }
